@@ -1,9 +1,10 @@
-import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.annotation.Testable;
 
 import static junit.framework.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class StackShould {
@@ -23,10 +24,18 @@ public class StackShould {
   }
 
   @Test
-  void pop_an_item(){
+  void pop_an_item() throws EmptyCustomStackException {
+    testableStack.push(object);
     testableStack.push(object);
     testableStack.pop(object);
-    assertEquals(0, testableStack.size());
+    assertEquals(1, testableStack.size());
+  }
+
+  @Test
+  void empty_stack_throws_exception() throws EmptyCustomStackException {
+    assertThrows(EmptyCustomStackException.class, () -> {
+      testableStack.pop(object);
+    });
   }
 
   public class TestableStack extends Stack {

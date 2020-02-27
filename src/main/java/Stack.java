@@ -11,7 +11,11 @@ public class Stack {
     objects.add(object);
   }
 
-  public void pop(Object object){
+  public void pop(Object object) throws EmptyCustomStackException {
+
+    if(objects.isEmpty()){
+      throw new EmptyCustomStackException();
+    }
     objects.remove(object);
   }
 }
