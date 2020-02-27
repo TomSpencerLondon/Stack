@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15a87bd2-ffcd-4e20-b947-6cd69115b4eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EmptyCustomStackException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StackShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackShould.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582803854295</updated>
       <workItem from="1582803856248" duration="3698000" />
-      <workItem from="1582819635950" duration="1866000" />
+      <workItem from="1582819635950" duration="1959000" />
     </task>
     <servers />
   </component>
