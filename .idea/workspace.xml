@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15a87bd2-ffcd-4e20-b947-6cd69115b4eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/StackShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackShould.java" afterDir="false" />
-    </list>
+    <list default="true" id="15a87bd2-ffcd-4e20-b947-6cd69115b4eb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582803854295</updated>
       <workItem from="1582803856248" duration="3698000" />
-      <workItem from="1582819635950" duration="1959000" />
+      <workItem from="1582819635950" duration="2159000" />
     </task>
     <servers />
   </component>
