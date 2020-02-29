@@ -30,6 +30,12 @@ public class StackShould {
   }
 
   @Test
+  void pop_returns_an_object() throws EmptyCustomStackException {
+    testableStack.push(object);
+    assertEquals(object, testableStack.pop(object));
+  }
+
+  @Test
   void empty_stack_throws_exception() throws EmptyCustomStackException {
     assertThrows(EmptyCustomStackException.class, () -> {
       testableStack.pop(object);

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15a87bd2-ffcd-4e20-b947-6cd69115b4eb" name="Default Changelist" comment="" />
+    <list default="true" id="15a87bd2-ffcd-4e20-b947-6cd69115b4eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackShould.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackShould">
+  <component name="RunManager" selected="JUnit.StackShould.pop_returns_an_object">
     <configuration name="StackShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Stack" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,8 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackShould.pop_returns_an_object" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackShould" />
+      <option name="METHOD_NAME" value="pop_returns_an_object" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackShould.pop_returns_an_object" />
         <item itemvalue="JUnit.StackShould" />
         <item itemvalue="JUnit.StackShould.pop_an_item" />
         <item itemvalue="JUnit.StackShould.empty_stack_throws_exception" />
@@ -99,6 +114,7 @@
       <updated>1582803854295</updated>
       <workItem from="1582803856248" duration="3698000" />
       <workItem from="1582819635950" duration="2159000" />
+      <workItem from="1583003887025" duration="238000" />
     </task>
     <servers />
   </component>
@@ -110,7 +126,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
